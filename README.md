@@ -151,8 +151,3 @@ python weather.py
 **Q4：如何限制对话历史长度避免 token 超限？**
 可在 `WeatherChat.send()` 中 append 后判断 `len(self.messages) > N`，并保留首条 + 最近 N 条。
 
----
-
-## 📄 License
-
-MIT
